@@ -1,6 +1,6 @@
 [server]
 port = "10000"
-url = "https://polymath-wsle.onrender.com"
+url = "https://polymath-1.onrender.com"
 
 [request]
 max_size = 100000000 # 100 MB
@@ -20,12 +20,12 @@ nginx_location = "127.0.0.1"  # if nginx is running on same host, may be differe
 # 10 : Debug (print everything)
 # 20 : Info (only more important informations)
 # 30 : Only Warnings. (e.g. weird requests)
-debug_level = 20
+debug_level = 10
 
 # set this to -1 to disable, else specify a filename!
 log2file = -1
 
-print_startup = "hello pterodactyl" # use this to give pterodactyl the started signal!
+print_startup = "hello pterodactylgg" # use this to give pterodactyl the started signal!
 
 [security]
 block_unknown_agents = false # should rejecting be used at all?, False disables it completly
